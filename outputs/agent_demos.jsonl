@@ -1,0 +1,3 @@
+{"demo": "token_limit_200", "status": "FALLBACK_TOKEN_LIMIT", "final_answer": "HANDOFF to human agent: automated run stopped (FALLBACK_TOKEN_LIMIT) after 3 model calls, 477 tokens; tools completed: get_order, search_policy. Please review scenario S1.", "llm_calls": 3, "tokens_used": 477}
+{"demo": "time_limit_0", "status": "FALLBACK_TIMEOUT", "final_answer": "HANDOFF to human agent: automated run stopped (FALLBACK_TIMEOUT) after 0 model calls, 0 tokens; tools completed: none. Please review scenario S1.", "llm_calls": 0, "tokens_used": 0}
+{"demo": "resume", "status": "REFUND", "final_answer": "REFUND: INR 128.25 issued.", "llm_calls": 5, "tokens_used": 1102}

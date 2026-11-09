@@ -1,0 +1,33 @@
+{
+  "audit": {
+    "raw orders rows": 13084,
+    "exact duplicate rows": 119,
+    "pending rows": 656,
+    "distinct order_id": 12309,
+    "non-numeric order_amount": 120,
+    "negative delivery_minutes": 106,
+    "blank delivery_minutes": 2541,
+    "blank age": 61,
+    "age outside 10-100": 6,
+    "distinct raw city spellings": 24,
+    "distinct non-blank raw gender spellings": 10,
+    "blank gender": 30
+  },
+  "age_set_missing": 6,
+  "age_missing_before_fill": 67,
+  "removed_exact_dups": 119,
+  "removed_older_records": 656,
+  "amounts_filled": 112,
+  "negative_set_missing": 105,
+  "delivery_filled_completed": 774,
+  "orders_checks": {
+    "rows": 12309,
+    "completed": 11110,
+    "cancelled": 1199,
+    "pending": 0,
+    "missing_amount": 0,
+    "missing_delivery_completed": 0,
+    "missing_delivery_cancelled": 1199,
+    "completed_revenue": 2998668.8
+  }
+}
